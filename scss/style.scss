@@ -2,11 +2,13 @@
 
 $primary: #E31C25;
 $secondary: #111111;
+$tertiary : #4416cd;
 $light: #ffffff;
 
 $theme-colors: (
     "primary": $primary,
     "secondary": $secondary,
+    "tertiary": $tertiary,
     "light": $light,
 );
 
@@ -214,7 +216,7 @@ $enable-shadows: false;
       height: 100%;
       top: 0;
       right: 0;
-      background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/img2.jpeg);
+      background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url(../img/team.jpg);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
@@ -255,7 +257,7 @@ $enable-shadows: false;
 .page-header,
 .subscribe,
 .footer {
-  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/background.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(../img/elephant3.jpg);
   background-position: top;
   background-repeat: no-repeat;
   background-size: cover;
